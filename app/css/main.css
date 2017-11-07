@@ -1,0 +1,30 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.home {
+  background: url(../img/header.jpg) no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center; }
+  .home .header {
+    padding-top: 27px;
+    padding-bottom: 337px; }
+    .home .header .top_nav, .home .header .logo {
+      display: inline-block;
+      vertical-align: middle; }
+    .home .header .top_nav {
+      padding: 0;
+      margin: auto 40px auto 40px;
+      margin-top: 50px; }
+      .home .header .top_nav li {
+        display: inline-block;
+        list-style-type: none;
+        margin: auto 15px auto 15px; }
+        .home .header .top_nav li a {
+          color: #1a1a1a;
+          text-transform: uppercase;
+          font-size: 12px;
+          font-weight: bold;
+          text-decoration: none;
+          outline: none; }
+          .home .header .top_nav li a:hover {
+            padding-bottom: 3px;
+            border-bottom: 2px solid #1a1a1a; }
