@@ -34,8 +34,10 @@ body {
             padding-bottom: 3px;
             border-bottom: 2px solid #1a1a1a; }
 
+.about .col-md-6 {
+  padding: 0; }
+
 .about .pic {
-  float: left;
   position: relative; }
   .about .pic p {
     top: 0;
@@ -48,12 +50,9 @@ body {
     font-size: 36px; }
 
 .about .info {
-  display: block;
-  margin: 0 auto;
   outline: 1px solid #666; }
   .about .info img {
-    margin: 95px auto 35px auto; }
+    margin: 14% auto 5% auto; }
   .about .info h5 {
     font-size: 15px;
-    margin-top: 35px;
-    padding-bottom: 10%; }
+    margin-top: 35px; }
