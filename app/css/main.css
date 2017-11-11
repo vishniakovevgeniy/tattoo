@@ -37,10 +37,6 @@ body {
     padding: 0; }
   .wrapper .about .pic {
     position: relative;
-    background: url(../img/about.jpg);
-    -webkit-background-size: cover;
-            background-size: cover;
-    background-position: center;
     width: 100%; }
     .wrapper .about .pic p {
       position: absolute;
@@ -84,3 +80,39 @@ body {
       text-align: right;
       color: #f2efe5;
       margin: 60px 20% 60px auto; }
+  .wrapper .team img {
+    float: left; }
+  .wrapper .team .pic {
+    position: relative; }
+    .wrapper .team .pic p {
+      position: absolute;
+      top: 0;
+      border: 10px solid #010101;
+      padding: 2% 5%;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #010101;
+      font-size: 36px;
+      display: block; }
+  .wrapper .team .info-name {
+    background-color: #f2efe5; }
+    .wrapper .team .info-name p {
+      font-weight: bold;
+      font-size: 24px;
+      text-transform: uppercase;
+      padding-top: 124px;
+      color: #000; }
+    .wrapper .team .info-name h5 {
+      font-family: open sans;
+      color: #000;
+      margin: 50px auto 50px auto; }
+    .wrapper .team .info-name .soc {
+      padding-bottom: 89px; }
+      .wrapper .team .info-name .soc ul li {
+        display: inline-block;
+        font-size: 30px;
+        margin: auto 15px auto 15px;
+        color: #000;
+        cursor: pointer; }
+        .wrapper .team .info-name .soc ul li:hover {
+          color: #797575; }
